@@ -327,3 +327,9 @@ Key.on('u', hyper, function () {
   app.focus();
   return app;    
 });
+
+Key.on('r', hyper, function () {
+  var app = App.launch('Activity Monitor');
+  app.focus();
+  return app;    
+});
