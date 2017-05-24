@@ -345,3 +345,15 @@ Key.on('d', hyper, function () {
   app.focus();
   return app;    
 });
+
+Key.on('g', hyper, function () {
+  var app = App.launch('GitHub Desktop');
+  app.focus();
+  return app;    
+});
+
+Key.on('h', hyper, function () {
+  var app = App.launch('Postgres');
+  app.focus();
+  return app;    
+});
