@@ -292,13 +292,13 @@ Key.on('j', hyper, function () {
   return app;    
 });
 
-Key.on('h', hyper, function () {
+Key.on('v', hyper, function () {
   var app = App.launch('Visual Studio Code');
   app.focus();
   return app;    
 });
 
-Key.on('k', hyper, function () {
+Key.on('x', hyper, function () {
   var app = App.launch('Xcode');
   app.focus();
   return app;    
@@ -330,6 +330,18 @@ Key.on('u', hyper, function () {
 
 Key.on('r', hyper, function () {
   var app = App.launch('Activity Monitor');
+  app.focus();
+  return app;    
+});
+
+Key.on('b', hyper, function () {
+  var app = App.launch('RubyMine');
+  app.focus();
+  return app;    
+});
+
+Key.on('d', hyper, function () {
+  var app = App.launch('DataGrip');
   app.focus();
   return app;    
 });
