@@ -292,12 +292,6 @@ Key.on('j', hyper, function () {
   return app;    
 });
 
-Key.on('v', hyper, function () {
-  var app = App.launch('Visual Studio Code');
-  app.focus();
-  return app;    
-});
-
 Key.on('x', hyper, function () {
   var app = App.launch('Xcode');
   app.focus();
@@ -354,6 +348,12 @@ Key.on('g', hyper, function () {
 
 Key.on('h', hyper, function () {
   var app = App.launch('Postgres');
+  app.focus();
+  return app;    
+});
+
+Key.on('c', hyper, function () {
+  var app = App.launch('Visual Studio Code');
   app.focus();
   return app;    
 });
