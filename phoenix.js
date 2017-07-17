@@ -357,3 +357,9 @@ Key.on('c', hyper, function () {
   app.focus();
   return app;    
 });
+
+Key.on('v', hyper, function () {
+  var app = App.launch('rdm');
+  app.focus();
+  return app;    
+});
